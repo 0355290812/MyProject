@@ -27,8 +27,15 @@ public class Main{
                                 // frame.setVisible(false);
                                 frame2.setVisible(true);
                         }
+                    }
+                });
+                JLabel label = new JLabel();
+                label.setText("Label1");
+                label.setVisible(false);
 
-                }});
+                frame2.add(label);
+                label.setVisible(true);
+
         }
 
 }
